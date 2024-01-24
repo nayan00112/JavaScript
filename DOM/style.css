@@ -1,0 +1,33 @@
+
+body{
+    background-color: chocolate;
+}
+
+h1{
+    color: rgb(0, 255, 255);
+    background-color: blue;
+    border-radius: 15px;
+    display: flex;
+}
+
+button{
+    color: chartreuse;
+    background-color: rgb(255, 0, 51);
+}
+
+.box{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    text-align: center;
+    margin: 5px;
+}
+
+.oldclass{
+    color: red;
+}
+
+.newclass{
+    background-color: green;
+}
