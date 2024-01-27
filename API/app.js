@@ -20,16 +20,15 @@ const getData = async () => {
 
 
 /////-----Promise chain
-// function getData(){
-//     fetch(URL).then((response)=>{
-//         return response.json()
-//     })
-//     .then((data)=>{
-//         fetchData.innerText = data[0].text;
-//     });
-// }
+function getData(){
+    fetch(URL).then((response)=>{
+        return response.json()
+    })
+    .then((data)=>{
+        fetchData.innerText = data[0].text;
+    });
+}
 
-// callback hell
 
 
 button.addEventListener("click",getData);
