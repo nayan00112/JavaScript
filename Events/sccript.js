@@ -22,6 +22,8 @@ const divvar = ()=>{
     console.log("div click in listener -- 2");
 }
 
+debugger;   // debuth ecode
+
 div1.addEventListener("click",divvar);
 
 div1.addEventListener("click",()=>{
