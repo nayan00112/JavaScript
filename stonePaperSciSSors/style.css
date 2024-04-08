@@ -12,6 +12,11 @@
     justify-content: center;
 }
 
+#scissors{
+    width: 0.5rem !important;
+    height: 0.5rem !important;
+}
+
 .head{
     background-color: black;
     color: beige;

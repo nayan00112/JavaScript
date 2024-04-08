@@ -20,6 +20,7 @@ imgBTN.addEventListener("click", async () => {
     console.log(URL);
     let response1 = await fetch(URL);
     let data = await response1.json();
+    console.log("response" + data);
     console.log(data);
 
     if(data.cod === "404"){
